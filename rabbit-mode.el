@@ -5,6 +5,9 @@
 ;;; Copyright (c) 2009-2019 Kouhei Sutou <kou@cozmixng.org>
 
 ;; Author: Kouhei Sutou <kou@cozmixng.org>
+;; URL: https://github.com/byplayer/rabbit-mode
+;; Keywords: languages rabbit
+;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; Version: 20190814
 
 (require 'cl)
