@@ -1,3 +1,4 @@
+;;; rabbit-mode.el --- major-mode for rabbit
 ;;; -*- mode: Emacs-Lisp; indent-tabs-mode: nil -*-
 ;;; rabbit-mode.el
 ;;  Emacs major mode for Rabbit
@@ -9,6 +10,8 @@
 ;; Keywords: languages rabbit
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; Version: 20190814
+;;; Commentary:
+;;; Code:
 
 (require 'cl)
 (require 'rd-mode)
@@ -382,3 +385,4 @@ format if value is specified, otherwise return \"\"."
       (beginning-of-buffer)))
 
 (provide 'rabbit-mode)
+;;; rabbit-mode.el ends here
